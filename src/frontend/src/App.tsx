@@ -142,24 +142,24 @@ function AppContent() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <div className="flex items-center justify-center w-6 h-6 rounded-md bg-amber/15 border border-amber/30">
-                <Coffee className="w-3 h-3 text-amber" />
+              <div className="flex items-center justify-center w-6 h-6 rounded-md bg-yellow/15 border border-yellow/30">
+                <Coffee className="w-3 h-3 text-yellow" />
               </div>
-              <span className="font-display font-bold text-sm text-amber">
+              <span className="font-display font-bold text-sm text-yellow">
                 OburugoAgroChain
               </span>
             </div>
 
             <p className="text-xs text-muted-foreground text-center sm:text-left">
               © {new Date().getFullYear()}. Built with{" "}
-              <span className="text-amber">♥</span> using{" "}
+              <span className="text-green">♥</span> using{" "}
               <a
                 href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(
                   typeof window !== "undefined" ? window.location.hostname : "",
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-amber hover:underline"
+                className="text-green hover:underline"
               >
                 caffeine.ai
               </a>
@@ -170,7 +170,7 @@ function AppContent() {
                 href="https://wagatoken.io/docs"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-amber transition-colors"
+                className="hover:text-yellow transition-colors"
               >
                 Documentation
               </a>
@@ -178,7 +178,7 @@ function AppContent() {
                 href="https://github.com/wagatoken"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-amber transition-colors"
+                className="hover:text-yellow transition-colors"
               >
                 GitHub
               </a>
@@ -186,7 +186,7 @@ function AppContent() {
                 href="https://wagatoken.io"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-amber transition-colors flex items-center gap-1"
+                className="hover:text-yellow transition-colors flex items-center gap-1"
               >
                 <Github className="w-3 h-3" />
                 OAC Token

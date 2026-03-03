@@ -23,7 +23,7 @@ export function NextStepButton() {
         size="lg"
         className={
           canProceed
-            ? "bg-amber/10 border border-amber/40 text-amber hover:bg-amber hover:text-background transition-all duration-200 font-semibold px-8 gap-2"
+            ? "bg-green/10 border border-green/40 text-green hover:bg-green hover:text-background transition-all duration-200 font-semibold px-8 gap-2"
             : "bg-muted/20 border border-border text-muted-foreground cursor-not-allowed font-semibold px-8 gap-2 opacity-60"
         }
         variant="outline"
